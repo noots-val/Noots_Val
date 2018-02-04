@@ -1,0 +1,22 @@
+{% extends 'common/base.html' %}
+{% load static %}
+
+{% block css %}
+<link rel="stylesheet" type="text/css" href="{% static 'official_site/css/contact.css' %}"/>
+{% endblock %}
+
+{% block contents %}
+<section>
+    <h1>お問い合わせ</h1>
+    <h2>メッセージを送る</h2>
+    <div class="sentences_box">
+        <p class="contact_sentences">次の項目を入力して送信ボタンをクリックしてください。全て入力必須です。</p>
+    </div>
+
+    <form class="contact_form" name="contactForm" role="form" method="post" novalidate>
+        {% csrf_token %}
+        {{ form }}
+        <button type="submit" value="Submit" id="sending_button" class="elliptic_button">送信する</button>
+    </form>
+</section>
+{% endblock %}

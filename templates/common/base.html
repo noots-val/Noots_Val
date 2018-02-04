@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+{% load static %}
+
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width"/>
+    <title>Noots_Val</title>
+
+    <link rel="stylesheet" type="text/css" href="{% static 'official_site/css/reset.css' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'official_site/css/common_style.css' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'official_site/css/common_parts.css' %}"/>
+    {% block css %}{% endblock %}
+</head>
+
+<body>
+<header class="header">
+    <a href="{% url 'official_site:index' %}"><img src="{% static 'official_site/img/logo.png' %}" alt="Noots-val"/></a>
+    <div id="modal_on" class="modal_on sp_only">MENU</div>
+    <nav id="nav_menu" class="nav_menu">
+        <ul id="main_menu" class="main_menu">
+            <li><a href="{% url 'official_site:index' %}">トップページ</a></li>
+            <li><a href="{% url 'official_site:profile' %}">自己紹介</a></li>
+            <li><a href="{% url 'official_site_assertion:assertion_index' %}">主張（準備中）</a></li>
+            <li><a href="#">広告（営利）</a></li>
+            <li><a href="http://noots-val.hatenablog.com" target=”_blank”>Blog</a></li>
+            <li><a href="{% url 'official_site:contact' %}">お問い合わせ</a></li>
+        </ul>
+    </nav>
+</header>
+
+<article class="contents">
+    {% block contents %}{% endblock %}
+</article>
+
+<footer class="footer">
+    <div class="copyright">© 2017 Noots-Val</div>
+    <script type="text/javascript" src="{% static 'official_site/js/common.js' %}"></script>
+    {% block js %}{% endblock %}
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,34 @@
+{% extends 'common/base.html' %}
+{% load static %}
+
+{% block css %}
+<link rel="stylesheet" type="text/css" href="{% static 'official_site/css/profile.css' %}"/>
+{% endblock %}
+
+{% block contents %}
+    <section>
+        <h1>自己紹介</h1>
+        <h2>Noots-Valとは</h2>
+        <div class="sentences_box">
+            <img src="{% static 'official_site/img/Noots.png'%}" class="noots_val_img"/>
+            <p class="noots_val_sentences">
+                あああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ</p>
+        </div>
+        <h2>製作者プロフィール</h2>
+        <div class="sentences_box">
+            <img src="{% static 'official_site/img/Noots.png'%}" class="noots_img"/>
+            <p class="noots_sentences">
+                あああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ</p>
+        </div>
+        <h2>最後に</h2>
+        <p class="point">
+            こんな荒唐無稽な話に付き合っていただき、本当にありがとうございます。
+            <br/>
+            もしよろしければ、少しのご支援をお願いいたします。
+        </p>
+    </section>
+{% endblock %}
+
+{% block js %}
+<script type="text/javascript" src="{% static 'official_site/js/contact.js' %}"></script>
+{% endblock %}

@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+/*===============================================
+画面の横幅が768px以上（パソコン用）
+===============================================*/
+@media screen and (min-width: 768px) {
+  /*-- コンテンツ --*/
+  .contents {
+    margin: 0;
+    background-color: #FFFFFF;
+  }
+  .main_img {
+    height: 400px;
+    margin: 0 auto;
+    display: block;
+  }
+  .main_message {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 16px;
+    display: block;
+  }
+}
+
+/*===============================================
+画面の横幅が767pxまで（スマホ用）
+===============================================*/
+@media screen and (max-width: 767px) {
+  /*-- コンテンツ --*/
+  .contents {
+    margin: 0;
+    padding-bottom: 5%;
+    background-color: #FFFFFF;
+  }
+  .main_img {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+  }
+  .main_message {
+    width: 95%;
+    margin: 0 auto;
+    padding-top: 5%;
+    display: block;
+  }
+}

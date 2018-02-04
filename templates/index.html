@@ -1,0 +1,11 @@
+{% extends 'common/base.html' %}
+{% load static %}
+
+{% block css %}
+    <link rel="stylesheet" type="text/css" href="{% static 'official_site/css/index.css' %}"/>
+{% endblock %}
+
+{% block contents %}
+    <img class="main_img" src="{% static 'official_site/img/Noots.png'%}"/>
+    <img class="main_message" src="{% static 'official_site/img/main_message.png'%}"/>
+{% endblock %}
