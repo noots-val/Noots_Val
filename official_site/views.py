@@ -12,6 +12,10 @@ def profile(request):
     return render(request, 'profile.html')
 
 
+def products(request):
+    return render(request, 'products.html')
+
+
 def contact(request):
     if request.method == 'POST':
         form = ContactForm(request.POST)

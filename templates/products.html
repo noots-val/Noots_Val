@@ -1,0 +1,26 @@
+</html>
+{% extends 'common/base.html' %}
+{% load static %}
+
+{% block css %}
+<link rel="stylesheet" type="text/css" href="{% static 'official_site/css/products.css' %}"/>
+{% endblock %}
+
+{% block contents %}
+<section class="products">
+    <h1>成果物</h1>
+
+    <h2>ホームページ制作</h2>
+    <div class="product_box">
+            <h3 class="title">Noots-Val公式サイト</h3>
+            <div class="img_box">
+                <img src="{% static 'official_site/img/logo.png' %}" alt="Noots-val"/>
+            </div>
+                <p>Djangoによるホームページ制作。<br/>
+                    本サイトが成果物です。<br/>
+                    といっても大したサイトではありませんが、model、view、templateくらいは使っています。
+                </p>
+    </div>
+
+</section>
+{% endblock %}

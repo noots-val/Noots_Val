@@ -1,365 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa57c896-8f1a-4323-bd3d-6af79a25d0f0" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dev.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.copied.metadata.default" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.lock" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.log" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.mylyn/repositories.xml.zip" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/9f/903104c0a008001816ad8c0d03616034" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/Servers/.indexes/57/history.index" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/history.version" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.version" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/1.tree" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.sysdeo.eclipse.tomcat.prefs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.xored.glance.ui.prefs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/net.sf.eclipse.tomcat.prefs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ajdt.ui.prefs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ant.ui.prefs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.compare.prefs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.runtime.prefs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.datatools.sqltools.sqleditor.prefs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.dltk.core.index.sql.h2.prefs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.egit.core.prefs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.egit.ui.prefs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.epp.logging.aeri.ide.prefs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.epp.logging.aeri.ui.prefs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.core.prefs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.debug.prefs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.debug.ui.prefs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.launching.prefs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jst.jsp.core.prefs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jst.jsp.ui.prefs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jst.server.tomcat.core.prefs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.m2e.core.prefs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.context.core.prefs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.monitor.ui.prefs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.tasks.ui.prefs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.php.core.prefs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.php.ui.prefs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.releng.tools.prefs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.rse.core.prefs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.rse.ui.prefs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.team.svn.core.prefs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.team.svn.ui.prefs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.team.ui.prefs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.browser.prefs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.editors.prefs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.prefs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.views.log.prefs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.css.ui.prefs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.dtd.ui.prefs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.html.ui.prefs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.jsdt.ui.prefs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.json.ui.prefs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.server.core.prefs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.validation.prefs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.xml.ui.prefs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.xsl.ui.prefs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.sf.feeling.decompiler.prefs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.springsource.ide.eclipse.commons.configurator.prefs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.springsource.ide.eclipse.commons.core.prefs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.springsource.ide.eclipse.commons.frameworks.core.prefs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.springsource.ide.eclipse.commons.ui.prefs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.springsource.ide.eclipse.dashboard.ui.prefs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/com.genuitec.eclipse.aeri.server1/http-cache.lucene60/segments_1" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/com.genuitec.eclipse.aeri.server1/http-cache.lucene60/write.lock" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/com.genuitec.eclipse.aeri.server1/local-history.lucene60/_0.cfe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/com.genuitec.eclipse.aeri.server1/local-history.lucene60/_0.cfs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/com.genuitec.eclipse.aeri.server1/local-history.lucene60/_0.si" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/com.genuitec.eclipse.aeri.server1/local-history.lucene60/segments_1" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/com.genuitec.eclipse.aeri.server1/local-history.lucene60/write.lock" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/com.genuitec.eclipse.aeri.server1/server-config.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/http-cache.lucene60/segments_1" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/http-cache.lucene60/write.lock" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history.lucene60/_0.cfe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history.lucene60/_0.cfs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history.lucene60/_0.si" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history.lucene60/segments_1" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history.lucene60/write.lock" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/server-config.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/assumedExternalFilesCache" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/index.db" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/javaLikeNames.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.launching/.install.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.launching/libraryInfos.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.logback.configuration/logback.1.8.2.20171007-0217.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.rse.core/.log" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.rse.core/initializerMarks/org.eclipse.rse.internal.core.RSELocalConnectionInitializer.mark" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.rse.core/profiles/PRF.zommyrsm_255/FP.local.files_0/node.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.rse.core/profiles/PRF.zommyrsm_255/H.#30ed##30fc##30ab##30eb#_0/node.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.rse.core/profiles/PRF.zommyrsm_255/node.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.rse.ui/.log" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.search/dialog_settings.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.tm.terminal.view.ui/.executables/data.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.views.log/dialog_settings.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui/dialog_settings.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.wst.jsdt.core/externalLibsTimeStamps" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/baseBrowserLibrary.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/browserWindow.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/dom5.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/system.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/xhr.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.wst.jsdt.core/variablesAndContainers.dat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.wst.server.core/servers.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.springframework.ide.eclipse.aop.core/.state" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1517634689392/common/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1517634689392/common/bootstrap/css/bootstrap.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1517634689392/common/bootstrap/css/bootstrap.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1517634689392/common/bootstrap/js/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1517634689392/common/bootstrap/js/bootstrap.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1517634689392/common/css/application.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1517634689392/common/css/blog.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1517634689392/common/css/buttons.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1517634689392/common/css/dashboard.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1517634689392/common/css/docs.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1517634689392/common/css/flexbox.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1517634689392/common/css/font-awesome.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1517634689392/common/css/fontcustom.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1517634689392/common/css/highlight.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1517634689392/common/css/homepage.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1517634689392/common/css/icons.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1517634689392/common/css/main.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1517634689392/common/css/markdown-content.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1517634689392/common/css/panes.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1517634689392/common/css/projects.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1517634689392/common/css/responsive.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1517634689392/common/css/tools.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1517634689392/common/css/typography.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1517634689392/common/font-awesome/css/font-awesome.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1517634689392/common/font-custom/fontcustom.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1517634689392/common/img/blog.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1517634689392/common/img/blog_32.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1517634689392/common/img/bug_32.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1517634689392/common/img/comparison_32.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1517634689392/common/img/compass.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1517634689392/common/img/compass_32.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1517634689392/common/img/extension.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1517634689392/common/img/extension_32.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1517634689392/common/img/favicon.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1517634689392/common/img/forum.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1517634689392/common/img/forum_32.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1517634689392/common/img/guides.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1517634689392/common/img/guides_32.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1517634689392/common/img/loading.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1517634689392/common/img/logo_bigleaf.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1517634689392/common/img/logo_spring.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1517634689392/common/img/logo_sts.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1517634689392/common/img/new_32.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1517634689392/common/img/overlay-incoming.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1517634689392/common/img/question.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1517634689392/common/img/spring-logo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1517634689392/common/img/springdocs.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1517634689392/common/img/springdocs_32.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1517634689392/common/js/application.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1517634689392/common/js/filter.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1517634689392/common/js/guide.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1517634689392/common/js/jquery.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1517634689392/common/js/modernizer.flexbox.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.commons.gettingstarted/dashboard/1517634689392/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.dashboard.ui/feeds/dashboard.feeds.blogs/-549550714.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.dashboard.ui/feeds/dashboard.feeds.update/623127801.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.metadata/version.ini" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Noots_Val/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Noots_Val/admin.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Noots_Val/apps.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Noots_Val/migrations/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Noots_Val/models.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Noots_Val/settings.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Noots_Val/tests.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Noots_Val/urls.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Noots_Val/wsgi.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/RemoteSystemsTempFiles/.project" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Servers/.project" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Servers/.settings/org.eclipse.wst.server.core.prefs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Servers/Pivotal tc Server Developer Edition v3.2-config/catalina.policy" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Servers/Pivotal tc Server Developer Edition v3.2-config/catalina.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Servers/Pivotal tc Server Developer Edition v3.2-config/context.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Servers/Pivotal tc Server Developer Edition v3.2-config/jmxremote.access" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Servers/Pivotal tc Server Developer Edition v3.2-config/jmxremote.password" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Servers/Pivotal tc Server Developer Edition v3.2-config/server.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Servers/Pivotal tc Server Developer Edition v3.2-config/tomcat-users.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Servers/Pivotal tc Server Developer Edition v3.2-config/web.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/manage.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/official_site/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/official_site/admin.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/official_site/apps.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/official_site/forms.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/official_site/migrations/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/official_site/models.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/official_site/tests.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/official_site/urls.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/official_site/views.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/official_site_assertion/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/official_site_assertion/admin.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/official_site_assertion/apps.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/official_site_assertion/migrations/0001_initial.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/official_site_assertion/migrations/0002_objective.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/official_site_assertion/migrations/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/official_site_assertion/models.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/official_site_assertion/tests.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/official_site_assertion/urls.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/official_site_assertion/views.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/css/autocomplete.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/css/base.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/css/changelists.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/css/dashboard.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/css/fonts.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/css/forms.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/css/login.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/css/responsive.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/css/responsive_rtl.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/css/rtl.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/css/vendor/select2/LICENSE-SELECT2.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/css/vendor/select2/select2.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/css/vendor/select2/select2.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/css/widgets.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/fonts/LICENSE.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/fonts/README.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/fonts/Roboto-Bold-webfont.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/fonts/Roboto-Light-webfont.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/fonts/Roboto-Regular-webfont.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/README.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/calendar-icons.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/gis/move_vertex_off.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/gis/move_vertex_on.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/icon-addlink.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/icon-alert.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/icon-calendar.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/icon-changelink.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/icon-clock.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/icon-deletelink.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/icon-no.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/icon-unknown-alt.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/icon-unknown.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/icon-yes.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/inline-delete.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/search.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/selector-icons.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/sorting-icons.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/tooltag-add.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/tooltag-arrowright.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/SelectBox.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/SelectFilter2.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/actions.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/actions.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/admin/DateTimeShortcuts.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/admin/RelatedObjectLookups.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/autocomplete.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/calendar.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/cancel.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/change_form.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/collapse.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/collapse.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/core.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/inlines.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/inlines.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/jquery.init.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/popup_response.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/prepopulate.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/prepopulate.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/prepopulate_init.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/timeparse.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/urlify.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/vendor/jquery/LICENSE-JQUERY.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/vendor/jquery/jquery.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/vendor/jquery/jquery.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/LICENSE-SELECT2.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ar.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/az.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/bg.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ca.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/cs.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/da.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/de.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/el.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/en.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/es.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/et.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/eu.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/fa.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/fi.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/fr.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/gl.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/he.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/hi.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/hr.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/hu.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/id.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/is.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/it.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ja.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/km.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ko.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/lt.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/lv.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/mk.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ms.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/nb.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/nl.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/pl.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/pt-BR.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/pt.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ro.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ru.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/sk.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/sr-Cyrl.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/sr.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/sv.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/th.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/tr.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/uk.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/vi.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/zh-CN.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/zh-TW.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/select2.full.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/select2.full.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/LICENSE-XREGEXP.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/xregexp.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/xregexp.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/official_site/css/assertion.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/official_site/css/common_parts.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/official_site/css/common_style.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/official_site/css/contact.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/official_site/css/index.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/official_site/css/profile.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/official_site/css/reset.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/official_site/img/Noots.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/official_site/img/logo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/official_site/img/main_message.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/official_site/js/common.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/assertion_index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/common/base.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/contact.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/profile.html" />
-    </list>
+    <list default="true" id="aa57c896-8f1a-4323-bd3d-6af79a25d0f0" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -369,56 +11,96 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="assertion_index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/assertion_index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="36" column="44" lean-forward="false" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/official_site_assertion/views.py">
+        <entry file="file://$PROJECT_DIR$/official_site/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+            <state relative-caret-position="221">
+              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding>
-                <element signature="e#0#41#0" expanded="true" />
+                <element signature="e#0#35#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="assertion.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/official_site/css/assertion.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Noots_Val/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret line="141" column="0" lean-forward="false" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/official_site_assertion/urls.py">
+        <entry file="file://$PROJECT_DIR$/official_site/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="37" lean-forward="false" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
+            <state relative-caret-position="119">
+              <caret line="7" column="37" lean-forward="false" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="products.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/products.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="59" lean-forward="false" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="products.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/official_site/css/products.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="514">
+              <caret line="40" column="9" lean-forward="false" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/official_site/css/contact.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="16" column="33" lean-forward="false" selection-start-line="16" selection-start-column="33" selection-end-line="17" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/common/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="185">
+              <caret line="24" column="31" lean-forward="false" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Noots_Val/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="140" column="39" lean-forward="false" selection-start-line="140" selection-start-column="39" selection-end-line="140" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="84" lean-forward="false" selection-start-line="8" selection-start-column="84" selection-end-line="8" selection-end-column="84" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="profile.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/profile.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="86">
+              <caret line="25" column="25" lean-forward="false" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -442,10 +124,11 @@
       <find>forms.py</find>
       <find>asserting</find>
       <find>MAIL</find>
+      <find>msr_box03</find>
     </findStrings>
     <replaceStrings>
       <replace />
-      <replace />
+      <replace>product_box</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -458,26 +141,30 @@
         <option value="$PROJECT_DIR$/templates/common/header.html" />
         <option value="$PROJECT_DIR$/templates/common/head.html" />
         <option value="$PROJECT_DIR$/templates/common/footer.html" />
-        <option value="$PROJECT_DIR$/templates/index.html" />
-        <option value="$PROJECT_DIR$/templates/profile.html" />
         <option value="$PROJECT_DIR$/static/official_site/js/contact.js" />
         <option value="$PROJECT_DIR$/official_site/form.py" />
         <option value="$PROJECT_DIR$/official_site/forms.py" />
         <option value="$PROJECT_DIR$/templates/contact.html" />
         <option value="$PROJECT_DIR$/templates/asserting.html" />
         <option value="$PROJECT_DIR$/official_site_asserting/urls.py" />
-        <option value="$PROJECT_DIR$/official_site/urls.py" />
         <option value="$PROJECT_DIR$/templates/assertion.html" />
-        <option value="$PROJECT_DIR$/official_site/views.py" />
         <option value="$PROJECT_DIR$/Noots_Val/urls.py" />
-        <option value="$PROJECT_DIR$/templates/common/base.html" />
         <option value="$PROJECT_DIR$/official_site_assertion/models.py" />
         <option value="$PROJECT_DIR$/official_site_assertion/admin.py" />
         <option value="$PROJECT_DIR$/official_site_assertion/urls.py" />
         <option value="$PROJECT_DIR$/static/official_site/css/assertion.css" />
         <option value="$PROJECT_DIR$/official_site_assertion/views.py" />
         <option value="$PROJECT_DIR$/templates/assertion_index.html" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/static/official_site/css/index.css" />
+        <option value="$PROJECT_DIR$/official_site/views.py" />
+        <option value="$PROJECT_DIR$/official_site/urls.py" />
+        <option value="$PROJECT_DIR$/static/official_site/css/common_style.css" />
+        <option value="$PROJECT_DIR$/templates/products.html" />
+        <option value="$PROJECT_DIR$/static/official_site/css/products.css" />
+        <option value="$PROJECT_DIR$/templates/common/base.html" />
         <option value="$PROJECT_DIR$/Noots_Val/settings.py" />
+        <option value="$PROJECT_DIR$/templates/profile.html" />
       </list>
     </option>
   </component>
@@ -495,18 +182,21 @@
             <id />
           </State>
           <State>
+            <id>JSON</id>
+          </State>
+          <State>
+            <id>Properties Files</id>
+          </State>
+          <State>
             <id>Python</id>
           </State>
         </expanded-state>
-        <selected-state>
-          <State>
-            <id>PyPep8NamingInspection</id>
-          </State>
-        </selected-state>
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -522,7 +212,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -535,16 +225,55 @@
               <item name="dev" type="462c0819:PsiDirectoryNode" />
               <item name="Noots_Val" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dev" type="462c0819:PsiDirectoryNode" />
+              <item name="official_site" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dev" type="462c0819:PsiDirectoryNode" />
+              <item name="official_site_assertion" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dev" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dev" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="official_site" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dev" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="official_site" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dev" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dev" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -552,10 +281,10 @@
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Project\NootsVal\dev\static\official_site\css" />
+      <recent name="C:\Project\NootsVal\dev\templates" />
       <recent name="C:\Project\NootsVal\dev\official_site_assertion" />
       <recent name="C:\Project\NootsVal\dev\official_site_asserting" />
       <recent name="C:\Project\NootsVal\dev\templates\common" />
-      <recent name="C:\Project\NootsVal\dev\templates" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -605,7 +334,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32917318" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917318" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -618,45 +347,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/official_site/views.py</url>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Noots_Val/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="20" column="56" lean-forward="false" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="94" lean-forward="false" selection-start-line="5" selection-start-column="94" selection-end-line="5" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/official_site/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Noots_Val/views.py" />
     <entry file="file://$PROJECT_DIR$/Noots_Val/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="969">
           <caret line="57" column="17" lean-forward="false" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -685,7 +384,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -719,20 +420,6 @@
     <entry file="file://$PROJECT_DIR$/templates/common/head.html" />
     <entry file="file://$PROJECT_DIR$/templates/common/header.html" />
     <entry file="file://$PROJECT_DIR$/templates/messages.html" />
-    <entry file="file://$PROJECT_DIR$/official_site/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/profile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="13" column="43" lean-forward="false" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/django/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -744,13 +431,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-431">
           <caret line="416" column="21" lean-forward="false" selection-start-line="416" selection-start-column="21" selection-end-line="416" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/official_site/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -769,35 +449,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/official_site/js/contact.js" />
-    <entry file="file://$PROJECT_DIR$/templates/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="86" lean-forward="false" selection-start-line="15" selection-start-column="86" selection-end-line="15" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/official_site_asserting/urls.py" />
-    <entry file="file://$PROJECT_DIR$/Noots_Val/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="21" column="79" lean-forward="false" selection-start-line="21" selection-start-column="79" selection-end-line="21" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/official_site/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="53" lean-forward="false" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Noots_Val/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -812,53 +464,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/official_site/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/official_site/css/common_style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/official_site/css/profile.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/official_site_assertion/tests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/common/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="19" column="40" lean-forward="true" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/official_site/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="44" lean-forward="true" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/official_site/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -876,30 +485,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/official_site/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/official_site/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/official_site/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
+        <state relative-caret-position="272">
           <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/official_site_assertion/urls.py">
+    <entry file="file://$PROJECT_DIR$/official_site/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="37" lean-forward="false" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/official_site_assertion/views.py">
+    <entry file="file://$PROJECT_DIR$/templates/contact.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="255">
+          <caret line="15" column="86" lean-forward="false" selection-start-line="15" selection-start-column="86" selection-end-line="15" selection-end-column="86" />
         </state>
       </provider>
     </entry>
@@ -907,7 +524,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
           <caret line="36" column="44" lean-forward="false" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="44" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Noots_Val/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="79" lean-forward="false" selection-start-line="21" selection-start-column="79" selection-end-line="21" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/official_site_assertion/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/official_site_assertion/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/official_site/css/profile.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -915,14 +559,105 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/official_site/css/common_parts.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/official_site/css/common_style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1445">
+          <caret line="85" column="49" lean-forward="true" selection-start-line="85" selection-start-column="49" selection-end-line="85" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/official_site/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="32" column="30" lean-forward="false" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/official_site/css/contact.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="16" column="33" lean-forward="false" selection-start-line="16" selection-start-column="33" selection-end-line="17" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Noots_Val/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="141" column="0" lean-forward="false" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
+        <state relative-caret-position="440">
+          <caret line="140" column="39" lean-forward="false" selection-start-line="140" selection-start-column="39" selection-end-line="140" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/products.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="59" lean-forward="false" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/official_site/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/official_site/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="37" lean-forward="false" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/official_site/css/products.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="40" column="9" lean-forward="false" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/common/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="24" column="31" lean-forward="false" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="84" lean-forward="false" selection-start-line="8" selection-start-column="84" selection-end-line="8" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="25" column="25" lean-forward="false" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
           <folding />
         </state>
       </provider>
