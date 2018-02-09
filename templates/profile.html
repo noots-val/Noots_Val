@@ -1,6 +1,19 @@
 {% extends 'common/base.html' %}
 {% load static %}
 
+{% block title %}
+    <title>自己紹介 | Noots-Val</title>
+{% endblock %}
+
+{% block description %}
+<meta name="description" content="IT業界の明日を憂う個人サークル「Noots-Val」のWEBサイト。自己紹介とかサークル紹介とか。"/>
+{% endblock %}
+
+{% block ogp %}
+<meta property="og:title" content="自己紹介 | Noots-Val">
+<meta property="og:description" content="IT業界の明日を憂う個人サークル「Noots-Val」のWEBサイト。自己紹介とかサークル紹介とか。"/>
+{% endblock %}
+
 {% block css %}
 <link rel="stylesheet" type="text/css" href="{% static 'official_site/css/profile.css' %}"/>
 {% endblock %}

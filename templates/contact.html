@@ -1,6 +1,19 @@
 {% extends 'common/base.html' %}
 {% load static %}
 
+{% block title %}
+    <title>お問い合わせ | Noots-Val</title>
+{% endblock %}
+
+{% block description %}
+<meta name="description" content="IT業界の明日を憂う個人サークル「Noots-Val」のWEBサイト。ご連絡くださる方はこちらから。"/>
+{% endblock %}
+
+{% block ogp %}
+<meta property="og:title" content="お問い合わせ | Noots-Val">
+<meta property="og:description" content="IT業界の明日を憂う個人サークル「Noots-Val」のWEBサイト。ご連絡くださる方はこちらから。"/>
+{% endblock %}
+
 {% block css %}
 <link rel="stylesheet" type="text/css" href="{% static 'official_site/css/contact.css' %}"/>
 {% endblock %}

@@ -4,8 +4,22 @@
 
 <head>
     <meta charset="utf-8"/>
+
+    {% block title %}{% endblock %}
+    {% block description %}{% endblock %}
+
     <meta name="viewport" content="width=device-width"/>
-    <title>Noots_Val</title>
+
+    {% block ogp %}{% endblock %}
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="http://example.com"/>
+    <meta property="og:image" content="{% static 'official_site/img/main_message.png'%}"/>
+
+    <!--<meta property="fb:app_id" content=""/>-->
+
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@Noots_Val"/>
+    <meta name="twitter:creator" content="@Noots_Val"/>
 
     <link rel="stylesheet" type="text/css" href="{% static 'official_site/css/reset.css' %}"/>
     <link rel="stylesheet" type="text/css" href="{% static 'official_site/css/common_style.css' %}"/>
