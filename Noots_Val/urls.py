@@ -20,5 +20,5 @@ from django.views.generic import TemplateView
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^official_site/', include('official_site.urls')),
-    url(r'^robots.txt/', TemplateView.as_view(template_name='robots.txt', content_type='text/plain')),
+    url(r'^robots.txt/', TemplateView.as_view(template_name='common/robots.txt', content_type='text/plain')),
 ]
