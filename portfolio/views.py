@@ -1,3 +1,6 @@
-from django.shortcuts import render
+from django.views.generic import TemplateView
+# from portfolio.models import portfoliomodel 後でモデル追加
 
-# Create your views here.
+
+class EcIndexTemplateView(TemplateView):
+    template_name = "portfolio/ec_index.html"

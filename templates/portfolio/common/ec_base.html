@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+{% load static %}
+
+<head>
+    <meta charset="utf-8"/>
+
+    {% block title %}{% endblock %}
+    {% block description %}{% endblock %}
+
+    <meta name="viewport" content="width=device-width"/>
+    <link rel="icon" type="image/png" href="{% static 'official_site/img/Noots.png'%}">
+
+    {% block ogp %}{% endblock %}
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="http://noots-val.com/official_site/index/"/>
+    <meta property="og:image" content="http://noots-val.com/static/official_site/img/Noots.png"/>
+
+    <!--<meta property="fb:app_id" content=""/>-->
+
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@Noots_Val"/>
+    <meta name="twitter:creator" content="@Noots_Val"/>
+
+    <link rel="stylesheet" type="text/css" href="{% static 'portfolio/css/reset.css' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'portfolio/css/common_style.css' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'portfolio/css/common_parts.css' %}"/>
+    {% block css %}{% endblock %}
+</head>
+
+<body>
+<header class="header">
+    <a href="{% url 'official_site:index' %}"><img src="{% static 'portfolio/img/logo.png' %}" alt="Noots-val"/></a>
+</header>
+
+<article class="contents">
+    {% block contents %}{% endblock %}
+</article>
+
+<footer class="footer">
+    <div class="copyright">© 2017 Noots-Val</div>
+    {% block js %}{% endblock %}
+</footer>
+
+</body>
+</html>
