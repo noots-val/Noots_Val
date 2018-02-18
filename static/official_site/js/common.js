@@ -8,7 +8,7 @@ document.getElementById("modal_on").addEventListener("click", function() {
 	const navMenu = document.getElementsByClassName("nav_menu")[0];
 
 	navMenu.style.height = document.body.clientHeight + "px";
-	navMenu.style.display = "block";
+	navMenu.classList.add('open');
 });
 
 /**
@@ -20,7 +20,7 @@ document.getElementById("modal_on").addEventListener("click", function() {
 document.getElementById("nav_menu").addEventListener("click", function() {
 
 	const navMenu = document.getElementsByClassName("nav_menu")[0];
-	navMenu.style.display = "none";
+	navMenu.classList.remove('open');
 });
 
 /**
