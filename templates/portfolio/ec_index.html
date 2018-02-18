@@ -2,16 +2,16 @@
 {% load static %}
 
 {% block title %}
-<title>トップ | Noots-Val</title>
+<title>ECサイトサンプル トップ | Noots-Val</title>
 {% endblock %}
 
 {% block description %}
-<meta name="description" content="IT業界の明日を憂う個人サークル「Noots-Val」のWEBサイト。まだ、特に何もないです。"/>
+<meta name="description" content="ECサイト用のサンプル。"/>
 {% endblock %}
 
 {% block ogp %}
-<meta property="og:title" content="トップ | Noots-Val">
-<meta property="og:description" content="IT業界の明日を憂う個人サークル「Noots-Val」のWEBサイト。まだ、特に何もないです。"/>
+<meta property="og:title" content="ECサイトサンプル トップ | Noots-Val">
+<meta property="og:description" content="ECサイト用のサンプル。"/>
 {% endblock %}
 
 {% block css %}
@@ -19,10 +19,57 @@
 {% endblock %}
 
 {% block contents %}
-<div class="map_block">
-    <img class="map_jpn" src="{% static 'portfolio/img/map.png' %}"/>
-    <div class="base_balloon kanto_balloon"><span>関東</span><span>エリア</span></div>
-    <div class="base_balloon chubu_balloon"><span>中部</span><span>エリア</span></div>
+<div class="banner_block">
 </div>
 
+<div class="map_block">
+    <img class="map_jpn" src="{% static 'portfolio/img/map.png' %}"/>
+    <div class="base_balloon chubu_balloon"><span>北海道</span><span>エリア</span></div>
+    <div class="base_balloon kanto_balloon"><span>東海</span><span>エリア</span></div>
+    <div class="base_balloon kanto_balloon"><span>関東</span><span>エリア</span></div>
+    <div class="base_balloon chubu_balloon"><span>中部</span><span>エリア</span></div>
+    <div class="base_balloon chubu_balloon"><span>近畿</span><span>エリア</span></div>
+    <div class="base_balloon chubu_balloon"><span>中国</span><span>エリア</span></div>
+    <div class="base_balloon chubu_balloon"><span>四国</span><span>エリア</span></div>
+    <div class="base_balloon chubu_balloon"><span>九州</span><span>エリア</span></div>
+</div>
+
+<div class="search_block">
+    <from class="search_form">
+        <textarea></textarea>
+        <button>検索</button>
+    </from>
+    <div class="category_block"></div>
+</div>
+
+<div class="commodities_block">
+    <div class="top_commodity">
+        <img class="commodity_image" src=""/>
+        <div class="commodity_title">タイトル</div>
+        <img class="favorite_icon" src=""/>
+        <img class="special_price"/>
+        <div class="commodity_price">9999円</div>
+    </div>
+    <div class="commodity">
+        <img class="commodity_image" src=""/>
+        <div class="commodity_title">タイトル</div>
+        <img class="favorite_icon" src=""/>
+        <img class="special_price"/>
+        <div class="commodity_price">9999円</div>
+    </div>
+    <div class="commodity">
+        <img class="commodity_image" src=""/>
+        <div class="commodity_title">タイトル</div>
+        <img class="favorite_icon" src=""/>
+        <img class="special_price"/>
+        <div class="commodity_price">9999円</div>
+    </div>
+    <div class="commodity">
+        <img class="commodity_image" src=""/>
+        <div class="commodity_title">タイトル</div>
+        <img class="favorite_icon" src=""/>
+        <img class="special_price"/>
+        <div class="commodity_price">9999円</div>
+    </div>
+</div>
 {% endblock %}
