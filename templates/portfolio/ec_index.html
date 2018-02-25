@@ -19,57 +19,19 @@
 {% endblock %}
 
 {% block contents %}
-<div class="banner_block">
-</div>
 
-<div class="map_block">
-    <img class="map_jpn" src="{% static 'portfolio/img/map.png' %}"/>
-    <div class="base_balloon chubu_balloon"><span>北海道</span><span>エリア</span></div>
-    <div class="base_balloon kanto_balloon"><span>東海</span><span>エリア</span></div>
-    <div class="base_balloon kanto_balloon"><span>関東</span><span>エリア</span></div>
-    <div class="base_balloon chubu_balloon"><span>中部</span><span>エリア</span></div>
-    <div class="base_balloon chubu_balloon"><span>近畿</span><span>エリア</span></div>
-    <div class="base_balloon chubu_balloon"><span>中国</span><span>エリア</span></div>
-    <div class="base_balloon chubu_balloon"><span>四国</span><span>エリア</span></div>
-    <div class="base_balloon chubu_balloon"><span>九州</span><span>エリア</span></div>
+<a href="{% url 'portfolio:ec_index' %}?category=cat">ネコ</a>
+<a href="{% url 'portfolio:ec_index' %}?category=dog">イヌ</a>
+<a href="{% url 'portfolio:ec_index' %}?category=rare">珍獣</a>
+<p>{{ category }}</p>
+{% for commodity in commodity_list %}
+<div>
+    <p>{{ commodity.commodity_title }}</p>
+    <p>{{ commodity.image_url }}</p>
+    <p>{{ commodity.price }}</p>
+    <p>{{ commodity.special_flg }}</p>
+    <p>{{ commodity.favorite_flg }}</p>
 </div>
+{% endfor %}
 
-<div class="search_block">
-    <from class="search_form">
-        <textarea></textarea>
-        <button>検索</button>
-    </from>
-    <div class="category_block"></div>
-</div>
-
-<div class="commodities_block">
-    <div class="top_commodity">
-        <img class="commodity_image" src=""/>
-        <div class="commodity_title">タイトル</div>
-        <img class="favorite_icon" src=""/>
-        <img class="special_price"/>
-        <div class="commodity_price">9999円</div>
-    </div>
-    <div class="commodity">
-        <img class="commodity_image" src=""/>
-        <div class="commodity_title">タイトル</div>
-        <img class="favorite_icon" src=""/>
-        <img class="special_price"/>
-        <div class="commodity_price">9999円</div>
-    </div>
-    <div class="commodity">
-        <img class="commodity_image" src=""/>
-        <div class="commodity_title">タイトル</div>
-        <img class="favorite_icon" src=""/>
-        <img class="special_price"/>
-        <div class="commodity_price">9999円</div>
-    </div>
-    <div class="commodity">
-        <img class="commodity_image" src=""/>
-        <div class="commodity_title">タイトル</div>
-        <img class="favorite_icon" src=""/>
-        <img class="special_price"/>
-        <div class="commodity_price">9999円</div>
-    </div>
-</div>
 {% endblock %}
