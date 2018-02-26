@@ -1,4 +1,5 @@
 from django.views.generic import ListView
+from django.views.generic import TemplateView
 from .models import Commodity
 
 """
@@ -33,3 +34,35 @@ class EcIndexListView(ListView):
             category = ""
         context["category"] = category
         return context
+
+
+class EcDetailTemplateView(TemplateView):
+    """
+    ECサイトのポートフォリオのdetailへと画面遷移するためのクラス
+    """
+
+    template_name = "portfolio/ec_detail.html"
+
+
+class EcCartTemplateView(TemplateView):
+    """
+    ECサイトのポートフォリオのcartへと画面遷移するためのクラス
+    """
+
+    template_name = "portfolio/ec_cart.html"
+
+
+class EcPaymentTemplateView(TemplateView):
+    """
+    ECサイトのポートフォリオのpaymentへと画面遷移するためのクラス
+    """
+
+    template_name = "portfolio/ec_payment.html"
+
+
+class EcPaymentCompleteTemplateView(TemplateView):
+    """
+    ECサイトのポートフォリオのpayment_completeへと画面遷移するためのクラス
+    """
+
+    template_name = "portfolio/ec_payment_complete.html"

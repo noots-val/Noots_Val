@@ -1,0 +1,24 @@
+{% extends 'portfolio/common/ec_base.html' %}
+{% load static %}
+
+{% block title %}
+<title>ECサイトサンプル 商品詳細画面 | Noots-Val</title>
+{% endblock %}
+
+{% block description %}
+<meta name="description" content="ECサイト用のサンプル。商品詳細画面。"/>
+{% endblock %}
+
+{% block ogp %}
+<meta property="og:title" content="ECサイトサンプル 商品詳細画面 | Noots-Val">
+<meta property="og:description" content="ECサイト用のサンプル。商品詳細画面。"/>
+{% endblock %}
+
+{% block css %}
+<link rel="stylesheet" type="text/css" href="{% static 'portfolio/css/ec_detail.css' %}"/>
+{% endblock %}
+
+{% block contents %}
+商品詳細
+<a href="{% url 'portfolio:ec_cart' %}">カートに入れる</a>
+{% endblock %}

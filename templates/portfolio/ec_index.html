@@ -26,11 +26,13 @@
 <p>{{ category }}</p>
 {% for commodity in commodity_list %}
 <div>
-    <p>{{ commodity.commodity_title }}</p>
-    <p>{{ commodity.image_url }}</p>
-    <p>{{ commodity.price }}</p>
-    <p>{{ commodity.special_flg }}</p>
-    <p>{{ commodity.favorite_flg }}</p>
+    <a href="{% url 'portfolio:ec_detail' %}?id={{ commodity.id }}">
+        <p>{{ commodity.commodity_title }}</p>
+        <p>{{ commodity.image_url }}</p>
+        <p>{{ commodity.price }}</p>
+        <p>{{ commodity.special_flg }}</p>
+        <p>{{ commodity.favorite_flg }}</p>
+    </a>
 </div>
 {% endfor %}
 

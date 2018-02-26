@@ -5,6 +5,10 @@
 ===============================================*/
 
 @media screen and (min-width: 768px) {
+  div {
+    border: 4px solid #CCCCCC;
+  }
+
   /*-- 日本地図 --*/
   .map_block {
     position: relative;

@@ -1,0 +1,26 @@
+{% extends 'portfolio/common/ec_base.html' %}
+{% load static %}
+
+{% block title %}
+<title>ECサイトサンプル 支払い選択画面 | Noots-Val</title>
+{% endblock %}
+
+{% block description %}
+<meta name="description" content="ECサイト用のサンプル。支払い選択画面。"/>
+{% endblock %}
+
+{% block ogp %}
+<meta property="og:title" content="ECサイトサンプル 支払い選択画面 | Noots-Val">
+<meta property="og:description" content="ECサイト用のサンプル。支払い選択画面。"/>
+{% endblock %}
+
+{% block css %}
+<link rel="stylesheet" type="text/css" href="{% static 'portfolio/css/ec_payment.css' %}"/>
+{% endblock %}
+
+{% block contents %}
+
+支払い選択画面
+<a href="{% url 'portfolio:ec_payment_complete' %}">お支払いを確定する</a>
+
+{% endblock %}
