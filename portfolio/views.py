@@ -1,6 +1,8 @@
 from django.views.generic import ListView
 from django.views.generic import TemplateView
+from django.views.generic import DetailView
 from .models import Commodity
+from .models import Cart
 
 """
 ポートフォリオのviews
@@ -21,35 +23,32 @@ class EcIndexListView(ListView):
         URLパラメータの処理メソッド
         :return: categoryパラメータによってフィルタされたCommodityオブジェクト（パラメータが空なら全件取得）
         """
-        if "query_param" in self.request.GET:
-            category = self.request.GET.get("category")
-            return Commodity.objects.filter(category=category)
+        request_get = self.request.GET
+        if "query_param" in request_get:
+            return Commodity.objects.filter(category=request_get.get("category"))
         else:
             return Commodity.objects.all()
 
-    def get_context_data(self, **kwargs):
-        context = super().get_context_data(**kwargs)
-        category = self.request.GET.get("category")
-        if category == "None":
-            category = ""
-        context["category"] = category
-        return context
 
-
-class EcDetailTemplateView(TemplateView):
+class EcCommodityDetailView(DetailView):
     """
     ECサイトのポートフォリオのdetailへと画面遷移するためのクラス
     """
 
-    template_name = "portfolio/ec_detail.html"
+    model = Commodity
+    template_name = "portfolio/ec_commodity.html"
 
 
-class EcCartTemplateView(TemplateView):
+class EcCartListView(ListView):
     """
     ECサイトのポートフォリオのcartへと画面遷移するためのクラス
     """
 
+    model = Cart
     template_name = "portfolio/ec_cart.html"
+
+    def get_queryset(self):
+        return Cart.objects.select_related("commodity", "user").filter(user__id=1)
 
 
 class EcPaymentTemplateView(TemplateView):

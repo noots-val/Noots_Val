@@ -23,10 +23,9 @@
 <a href="{% url 'portfolio:ec_index' %}?category=cat">ネコ</a>
 <a href="{% url 'portfolio:ec_index' %}?category=dog">イヌ</a>
 <a href="{% url 'portfolio:ec_index' %}?category=rare">珍獣</a>
-<p>{{ category }}</p>
 {% for commodity in commodity_list %}
 <div>
-    <a href="{% url 'portfolio:ec_detail' %}?id={{ commodity.id }}">
+    <a href="{% url 'portfolio:ec_commodity' commodity.pk %}">
         <p>{{ commodity.commodity_title }}</p>
         <p>{{ commodity.image_url }}</p>
         <p>{{ commodity.price }}</p>

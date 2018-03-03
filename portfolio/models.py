@@ -13,3 +13,22 @@ class Commodity(models.Model):
     stock = models.PositiveIntegerField()
     recommend1 = models.PositiveIntegerField(null=True)
     recommend2 = models.PositiveIntegerField(null=True)
+
+    def __str__(self):
+        return str(self.pk)
+
+
+class User(models.Model):
+    # id = AutoField(primary_key=True)  # 自動定義
+    mail_address = models.EmailField()
+    password = models.CharField(max_length=50)
+
+    def __str__(self):
+        return str(self.pk)
+
+
+class Cart(models.Model):
+    # id = AutoField(primary_key=True)  # 自動定義
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    commodity = models.ForeignKey(Commodity, on_delete=models.CASCADE)
+    amount = models.PositiveIntegerField()

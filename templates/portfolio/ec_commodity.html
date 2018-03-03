@@ -21,4 +21,12 @@
 {% block contents %}
 商品詳細
 <a href="{% url 'portfolio:ec_cart' %}">カートに入れる</a>
+    <p>{{ commodity.commodity_title }}</p>
+    <p>{{ commodity.image_url }}</p>
+    <img src="{{ commodity.image_url }}"/>
+    <p>{{ commodity.price }}</p>
+    <p>{{ commodity.description }}</p>
+    <p>{{ commodity.stock }}</p>
+    <p>{{ commodity.recommend1 }}</p>
+    <p>{{ commodity.recommend2 }}</p>
 {% endblock %}
