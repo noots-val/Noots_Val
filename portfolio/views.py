@@ -48,15 +48,38 @@ class EcCartListView(ListView):
     template_name = "portfolio/ec_cart.html"
 
     def get_queryset(self):
+        """
+        カートの中身をフィルタするメソッド
+        :return: ユーザーIDでフィルタしたカートのCommodity（後程ユーザー関連の処理はまとめて実装）
+        """
         return Cart.objects.select_related("commodity", "user").filter(user__id=1)
 
 
-class EcPaymentTemplateView(TemplateView):
+class EcPaymentListView(ListView):
     """
     ECサイトのポートフォリオのpaymentへと画面遷移するためのクラス
     """
 
+    model = Cart
     template_name = "portfolio/ec_payment.html"
+
+    cart_of_user = Cart.objects.select_related("commodity", "user").filter(user__id=1)
+
+    def get_queryset(self):
+        """
+        カートの中身をフィルタするメソッド
+        :return: ユーザーIDでフィルタしたカートのCommodity（後程ユーザー関連の処理はまとめて実装）
+        """
+        return self.cart_of_user
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        prices_of_every_commodities = [prices_and_amounts["commodity__price"] * prices_and_amounts["amount"] for
+                                       prices_and_amounts in
+                                       self.cart_of_user.values("commodity__price", "amount")]
+        merchandise_total = sum(prices_of_every_commodities)
+        context["merchandise_total"] = merchandise_total
+        return context
 
 
 class EcPaymentCompleteTemplateView(TemplateView):
