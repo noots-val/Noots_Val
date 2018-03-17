@@ -1,0 +1,67 @@
+{% extends 'portfolio/common/ec_base.html' %}
+{% load static %}
+
+{% block title %}
+<title>ECサイトサンプル 商品詳細画面 | Noots-Val</title>
+{% endblock %}
+
+{% block description %}
+<meta name="description" content="ECサイト用のサンプル。商品詳細画面。"/>
+{% endblock %}
+
+{% block ogp %}
+<meta property="og:title" content="ECサイトサンプル 商品詳細画面 | Noots-Val">
+<meta property="og:description" content="ECサイト用のサンプル。商品詳細画面。"/>
+{% endblock %}
+
+{% block css %}
+<link rel="stylesheet" type="text/css" href="{% static 'portfolio/css/Layout/ec_detail/contents.css' %}"/>
+
+<link rel="stylesheet" type="text/css" href="{% static 'portfolio/css/Object/pick_up_product.css' %}"/>
+<link rel="stylesheet" type="text/css" href="{% static 'portfolio/css/Object/product_detail.css' %}"/>
+<link rel="stylesheet" type="text/css" href="{% static 'portfolio/css/Object/recommended_product.css' %}"/>
+<link rel="stylesheet" type="text/css" href="{% static 'portfolio/css/Object/product.css' %}"/>
+<link rel="stylesheet" type="text/css" href="{% static 'portfolio/css/Object/cart_btn.css' %}"/>
+{% endblock %}
+
+{% block contents %}
+<div class="pick-up-product">
+    <div class="product-detail">
+        <div class="product-detail__title">{{ commodity.commodity_title }}</div>
+        <div class="product-detail__image-area">
+            <img class="product-detail__image" src="{{ commodity.image_url }}">
+        </div>
+        <div class="product-detail__category">{{ commodity.category }}</div>
+        <div class="product-detail__price">{{ commodity.price }}円</div>
+        <p class="product-detail__description">{{ commodity.description }}</p>
+        <div class="product-detail__in-to-btn"><a href="{% url 'portfolio:ec_cart' %}">カートに入れる</a></div>
+    </div>
+</div>
+
+<h1 class="contents__recommend-title">おすすめ商品（これもまだ固定値）</h1>
+<div class="recommended-product">
+    <div class="product">
+        <div class="product__title">シーザーサラダ</div>
+        <div class="product__image-area">
+            <img class="product__image" src="../../../static/portfolio/img/sample.jpg">
+        </div>
+        <div class="product__category">ネコ</div>
+        <div class="product__price">999,999,999円</div>
+        <span class="product__special-icon">特価</span>
+        <div class="product__favorite-icon">★</div>
+    </div>
+
+    <div class="product">
+        <div class="product__title">魔界村</div>
+        <div class="product__image-area">
+            <img class="product__image" src="../../../static/portfolio/img/sample.png">
+        </div>
+        <div class="product__category">ネコ</div>
+        <div class="product__price">999,999,999円</div>
+        <span class="product__special-icon">特価</span>
+        <div class="product__favorite-icon">★</div>
+    </div>
+</div>
+
+<div class="cart-btn"><a href="{% url 'portfolio:ec_cart' %}">車</a></div>
+{% endblock %}

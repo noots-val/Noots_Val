@@ -36,7 +36,7 @@ class EcCommodityDetailView(DetailView):
     """
 
     model = Commodity
-    template_name = "portfolio/ec_commodity.html"
+    template_name = "portfolio/ec_detail.html"
 
 
 class EcCartListView(ListView):
@@ -88,3 +88,11 @@ class EcPaymentCompleteTemplateView(TemplateView):
     """
 
     template_name = "portfolio/ec_payment_complete.html"
+
+
+class EcLoginTemplateView(TemplateView):
+    """
+    ECサイトのポートフォリオのloginへと画面遷移するためのクラス
+    """
+
+    template_name = "portfolio/ec_login.html"
