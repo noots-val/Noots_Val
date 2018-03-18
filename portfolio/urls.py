@@ -5,6 +5,8 @@ from .views import EcCartListView
 from .views import EcPaymentListView
 from .views import EcPaymentCompleteTemplateView
 
+from . import views
+
 app_name = 'portfolio'
 urlpatterns = [
     url(r'^ec_index/$', EcIndexListView.as_view(), name='ec_index'),

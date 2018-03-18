@@ -1,6 +1,8 @@
 from django.views.generic import ListView
 from django.views.generic import TemplateView
 from django.views.generic import DetailView
+from django.contrib.auth.mixins import LoginRequiredMixin
+
 from .models import Commodity
 from .models import Cart
 
@@ -39,7 +41,7 @@ class EcCommodityDetailView(DetailView):
     template_name = "portfolio/ec_detail.html"
 
 
-class EcCartListView(ListView):
+class EcCartListView(LoginRequiredMixin, ListView):
     """
     ECサイトのポートフォリオのcartへと画面遷移するためのクラス
     """
@@ -55,7 +57,7 @@ class EcCartListView(ListView):
         return Cart.objects.select_related("commodity", "user").filter(user__id=1)
 
 
-class EcPaymentListView(ListView):
+class EcPaymentListView(LoginRequiredMixin, ListView):
     """
     ECサイトのポートフォリオのpaymentへと画面遷移するためのクラス
     """
@@ -82,17 +84,9 @@ class EcPaymentListView(ListView):
         return context
 
 
-class EcPaymentCompleteTemplateView(TemplateView):
+class EcPaymentCompleteTemplateView(LoginRequiredMixin, TemplateView):
     """
     ECサイトのポートフォリオのpayment_completeへと画面遷移するためのクラス
     """
 
     template_name = "portfolio/ec_payment_complete.html"
-
-
-class EcLoginTemplateView(TemplateView):
-    """
-    ECサイトのポートフォリオのloginへと画面遷移するためのクラス
-    """
-
-    template_name = "portfolio/ec_login.html"

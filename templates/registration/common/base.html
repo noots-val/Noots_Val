@@ -21,19 +21,21 @@
     <meta name="twitter:card" content="summary"/>
     <meta name="twitter:site" content="@Noots_Val"/>
     <meta name="twitter:creator" content="@Noots_Val"/>
-    <link rel="stylesheet" type="text/css" href="{% static 'portfolio/css/Foundation/reset.css' %}"/>
-    <link rel="stylesheet" type="text/css" href="{% static 'portfolio/css/Foundation/base.css' %}"/>
-    <link rel="stylesheet" type="text/css" href="{% static 'portfolio/css/Layout/base_container.css' %}"/>
-    <link rel="stylesheet" type="text/css" href="{% static 'portfolio/css/Layout/base_header.css' %}"/>
-    <link rel="stylesheet" type="text/css" href="{% static 'portfolio/css/Layout/base_footer.css' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'registration/css/Foundation/reset.css' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'registration/css/Foundation/base.css' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'registration/css/Layout/base_container.css' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'registration/css/Layout/base_header.css' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'registration/css/Layout/base_footer.css' %}"/>
     {% block css %}{% endblock %}
 </head>
 
 <body>
 <div class="container">
     <header class="header">
+        <a class="header__logo-area" href="{% url 'portfolio:ec_index' %}">
             <img src="{% static 'portfolio/img/logo.png' %}" alt="Noots-val" class="header__logo"/>
-        <a href="{% url 'login' %}" class="header__login">ログイン・会員登録</a>
+        </a>
+        <a class="header__login">ログイン</a>
     </header>
 
     <div class="contents">
