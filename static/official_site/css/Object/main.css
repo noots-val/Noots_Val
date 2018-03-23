@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+.main__img {
+  height: 400px;
+  margin: 0 auto;
+  display: block;
+  animation-duration: 3s;
+}
+
+.main__message {
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 16px;
+  display: block;
+  animation-duration: 4s;
+}

@@ -5,15 +5,15 @@ from .forms import ContactForm
 
 
 def index(request):
-    return render(request, 'index.html')
+    return render(request, 'official_site/index.html')
 
 
 def profile(request):
-    return render(request, 'profile.html')
+    return render(request, 'official_site/profile.html')
 
 
 def products(request):
-    return render(request, 'products.html')
+    return render(request, 'official_site/products.html')
 
 
 def contact(request):
@@ -21,7 +21,7 @@ def contact(request):
         form = ContactForm(request.POST)
         if form.is_valid():
             form.send_email()
-            return HttpResponseRedirect('contact.html')
+            return HttpResponseRedirect('official_site/contact.html')
     else:
         form = ContactForm()
-    return render(request, 'contact.html', {'form': form})
+    return render(request, 'official_site/contact.html', {'form': form})

@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+/*===============================================
+画面の横幅が768px以上（パソコン用）
+===============================================*/
+@media screen and (min-width: 768px) {
+    /* ボックス */
+    .product_box {
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 16px;
+        border: solid 1px #555555;
+    }
+    .product_box .img_box {
+        height: 160px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #FFFFFF;
+        border-bottom: double #555555;
+    }
+    .product_box .img_box img {
+        height: 100%;
+    }
+    .product_box p {
+        line-height: 1.6;
+        padding: 8px;
+        background-color: #FFFFFF;
+    }
+    .product_box .title {
+        background-color: #555555;
+        color: #FFFFFF;
+        padding: 8px;
+    }
+}
+/*===============================================
+画面の横幅が767pxまで（スマホ用）
+===============================================*/
+@media screen and (max-width: 767px) {
+    /* ボックス */
+    .product_box {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 16px;
+        border: solid 1px #555555;
+    }
+    .product_box .img_box {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #FFFFFF;
+        border-bottom: double #555555;
+    }
+    .product_box .img_box img {
+        width: 100%;
+    }
+    .product_box p {
+        padding: 8px;
+        background-color: #FFFFFF;
+    }
+    .product_box .title {
+        background-color: #555555;
+        color: #FFFFFF;
+        padding: 8px;
+    }
+}

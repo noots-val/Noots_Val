@@ -22,37 +22,49 @@
     <meta name="twitter:site" content="@Noots_Val"/>
     <meta name="twitter:creator" content="@Noots_Val"/>
 
-    <link rel="stylesheet" type="text/css" href="{% static 'official_site/css/reset.css' %}"/>
-    <link rel="stylesheet" type="text/css" href="{% static 'official_site/css/common_style.css' %}"/>
-    <link rel="stylesheet" type="text/css" href="{% static 'official_site/css/common_parts.css' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'official_site/css/Foundation/reset.css' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'official_site/css/Foundation/animate.css' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'official_site/css/Foundation/base.css' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'official_site/css/Layout/container.css' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'official_site/css/Layout/header.css' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'official_site/css/Layout/nav.css' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'official_site/css/Layout/footer.css' %}"/>
+
+    <link rel="stylesheet" type="text/css" href="{% static 'official_site/css/Object/elliptic_button.css' %}"/>
     {% block css %}{% endblock %}
 </head>
 
 <body>
-<header class="header">
-    <a href="{% url 'official_site:index' %}"><img src="{% static 'official_site/img/logo.png' %}" alt="Noots-val"/></a>
-    <div id="modal_on" class="modal_on sp_only">MENU</div>
-    <nav id="nav_menu" class="nav_menu">
-        <ul id="main_menu" class="main_menu">
-            <li><a href="{% url 'official_site:index' %}">トップページ</a></li>
-            <li><a href="{% url 'official_site:profile' %}">自己紹介</a></li>
-            <li><a href="{% url 'official_site:products' %}">成果物</a></li>
-            <li><a href="#">準備中</a></li>
-            <li><a href="http://noots-val.hatenablog.com" target=”_blank”>Blog</a></li>
-            <li><a href="{% url 'official_site:contact' %}">お問い合わせ</a></li>
-        </ul>
-    </nav>
-</header>
+<div class="container">
+    <header class="header">
+        <a class="header__logo-area">
+            <img src="{% static 'official_site/img/logo.png'%}" alt="Noots-val" class="header__logo"/>
+        </a>
+        <div class="header__login">
+            <a href="{% url 'accounts:signup' %}" class="elliptic-button">ログイン</a>
+        </div>
 
-<article class="contents">
-    {% block contents %}{% endblock %}
-</article>
+        <div id="js-header__modal-on" class="header__modal-on">MENU</div>
+        <nav id="js-nav" class="nav">
+            <ul id="js-nav__menu" class="nav__menu">
+                <li><a href="{% url 'official_site:index' %}">トップページ</a></li>
+                <li><a href="{% url 'official_site:profile' %}">自己紹介</a></li>
+                <li><a href="{% url 'official_site:products' %}">成果物</a></li>
+                <li><a href="#">準備中</a></li>
+                <li><a href="http://noots-val.hatenablog.com" target=”_blank”>Blog</a></li>
+                <li><a href="{% url 'official_site:contact' %}">お問い合わせ</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<footer class="footer">
-    <div class="copyright">© 2017 Noots-Val</div>
-    <script type="text/javascript" src="{% static 'official_site/js/common.js' %}"></script>
-    {% block js %}{% endblock %}
-</footer>
+    <div class="contents">
+        {% block contents %}{% endblock %}
+    </div>
 
+    <footer class="footer">
+        <div class="copyright">© 2017 Noots-Val</div>
+        <script type="text/javascript" src="{% static 'official_site/js/index.js' %}"></script>
+    </footer>
+</div>
 </body>
 </html>

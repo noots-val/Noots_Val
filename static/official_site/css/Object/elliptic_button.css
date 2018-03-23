@@ -1,0 +1,35 @@
+  /*-- ボタン --*/
+  .elliptic-button , .elliptic-button:hover, .elliptic-button:visited {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    width: max-content;
+    height: max-content;
+    padding: 0 16px 0 16px;
+
+    border-top: 1px solid #6b7688;
+    text-shadow: 0px 1px 0px #222;
+    color: #f2f1f1;
+    background: #586170;
+    background: -webkit-gradient(linear, left top, left bottom, from(#586170),
+      to(#424551));
+    background: -moz-linear-gradient(top, #586170, #424551);
+    background: -o-linear-gradient(top, #586170, #424551);
+    background: -ms-linear-gradient(top, #586170, #424551);
+    background: linear-gradient(top, #586170, #424551);
+    -webkit-box-shadow: 0 1px 1px #1d1e20;
+    -moz-box-shadow: 0 1px 1px #1d1e20;
+    box-shadow: 0 1px 1px #1d1e20;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+  }
+  .elliptic-button:hover { /*マウスホバー時*/
+    color: #f2f1f1;
+    background: #3f4551;
+    background: -webkit-gradient(linear, left top, left bottom, from(#3f4551),
+      to(#333640));
+    background: -moz-linear-gradient(top, #3f4551, #333640);
+    background: -o-linear-gradient(top, #3f4551, #333640);
+    background: -ms-linear-gradient(top, #3f4551, #333640);
+    background: linear-gradient(top, #3f4551, #333640);
+  }
