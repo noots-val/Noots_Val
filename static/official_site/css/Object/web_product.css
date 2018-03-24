@@ -8,3 +8,9 @@
   margin: 1rem;
   padding: 1rem;
 }
+
+.web-product__link {
+  display: block;
+  text-decoration: none;
+  color: #222222;
+}
