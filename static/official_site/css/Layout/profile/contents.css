@@ -1,14 +1,9 @@
 @charset "UTF-8";
-
 .contents {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows:  1fr, 300px, 1fr, minmax(max-content, 1000px);
+  padding: 2rem 0 2rem 0;
 }
 
-.contents__featured-title {
-  grid-row: 1;
-  margin-top: 2rem;
+.contents__header1 {
   padding: 1rem;
   font-size: 2.5rem;
   color: #EEEEEE;
@@ -16,22 +11,19 @@
   border-left: solid 5px #CC6666;
 }
 
-.featured-product {
-  grid-row: 2;
-}
-
-.contents__common-title {
-  grid-row: 3;
-  margin-top: 2rem;
-  padding: 1rem;
-  font-size: 2.5rem;
-  color: #EEEEEE;
-  background: #555555;
-  border-left: solid 5px #CC6666;
-}
-
-.common-product {
-  grid-row: 4;
+.contents__header2 {
+  font-size: 2rem;
+  border-bottom: solid 3px #CC6666;
+  padding-top: 2rem;
 }
 
 
+/*===============================================
+画面の横幅が768px以上（パソコン用）
+===============================================*/
+
+@media screen and (min-width: 768px) {
+  .contents {
+    width: 1000px;
+  }
+}

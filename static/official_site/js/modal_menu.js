@@ -3,12 +3,12 @@
  *
  * @returns
  */
-document.getElementById("modal_on").addEventListener("click", function() {
+document.getElementById("js-header__modal-on").addEventListener("click", function() {
 
-	const navMenu = document.getElementsByClassName("nav_menu")[0];
+	const navMenu = document.getElementsByClassName("js-nav")[0];
 
 	navMenu.style.height = document.body.clientHeight + "px";
-	navMenu.classList.add('open');
+	navMenu.classList.add('nav--is_open');
 });
 
 /**
@@ -17,10 +17,10 @@ document.getElementById("modal_on").addEventListener("click", function() {
  *
  * @returns
  */
-document.getElementById("nav_menu").addEventListener("click", function() {
+document.getElementById("js-nav").addEventListener("click", function() {
 
-	const navMenu = document.getElementsByClassName("nav_menu")[0];
-	navMenu.classList.remove('open');
+	const navMenu = document.getElementsByClassName("js-nav")[0];
+	navMenu.classList.remove('nav--is_open');
 });
 
 /**
@@ -29,7 +29,7 @@ document.getElementById("nav_menu").addEventListener("click", function() {
  * @param event
  * @returns
  */
-document.getElementById("main_menu").addEventListener('click', function(event) {
+document.getElementById("js-nav__menu").addEventListener('click', function(event) {
 
 	event.stopPropagation()
 });

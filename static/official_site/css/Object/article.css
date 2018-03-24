@@ -1,48 +1,58 @@
 @charset "UTF-8";
 
+/* floatを使用 */
+
+.article {
+  overflow: hidden;
+  padding: 16px;
+}
+
+
 /*===============================================
 画面の横幅が768px以上（パソコン用）
 ===============================================*/
+
 @media screen and (min-width: 768px) {
-  /* 文章と画像 */
-  .noots_val_sentences {
+  .article__sentences--right {
     width: 60%;
     float: right;
   }
-  .noots_val_img {
-    width: 30%;
-    float: left;
-  }
-  .noots_sentences {
+  .article__sentences--left {
     width: 60%;
     float: left;
   }
-  .noots_img {
+  .article__img--left {
+    width: 30%;
+    float: left;
+  }
+  .article__img--right {
     width: 30%;
     float: right;
   }
 }
+
+
 /*===============================================
 画面の横幅が767pxまで（スマホ用）
 ===============================================*/
+
 @media screen and (max-width: 767px) {
-  /* 文章と画像 */
-  .noots_val_sentences {
+  .article__sentences--right {
     width: 95%;
     margin: 0 auto;
     padding-top: 8%;
   }
-  .noots_val_img {
+  .article__sentences--left {
+    width: 95%;
+    margin: 0 auto;
+    padding-top: 8%;
+  }
+  .article__img--left {
     width: 70%;
     display: block;
     margin: 0 auto;
   }
-  .noots_sentences {
-    width: 95%;
-    margin: 0 auto;
-    padding-top: 8%;
-  }
-  .noots_img {
+  .article__img--right {
     width: 70%;
     display: block;
     margin: 0 auto;

@@ -1,9 +1,8 @@
 @charset "UTF-8";
-
 .contents {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: auto auto 1fr;
+  grid-template-rows: repeat(4, auto) 1fr;
   grid-gap: 2rem;
 
   padding: 2rem 0 2rem 0;
@@ -26,4 +25,22 @@
 
   font-size: 2rem;
   border-bottom: solid 3px #CC6666;
+}
+
+.warning {
+  grid-column: 1;
+  grid-row: 3;
+  justify-self: center;
+}
+
+.contents__description {
+  grid-column: 1;
+  grid-row: 4;
+  justify-self: center;
+}
+
+.contact-form {
+  grid-column: 1;
+  grid-row: 5;
+  justify-self: center;
 }

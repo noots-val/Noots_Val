@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /*===============================================
-画面の横幅が768px以上（パソコン用）
+画面の横幅が768px以上（スマホ用）
 ===============================================*/
 
 @media screen and (max-width: 767px) {
@@ -46,6 +46,8 @@
     opacity: 1;
   }
 }
+
+
 /*===============================================
 画面の横幅が768px以上（パソコン用）
 ===============================================*/
@@ -55,6 +57,7 @@
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: 1fr;
+
     list-style: none;
     background-color: #333333;
     background-image: -moz-linear-gradient(top, #333333, #666666);
