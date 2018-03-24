@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+html {
+  font-size: 10px;
+}
+
+body {
+    background-color: #F4F5F7;
+    color: #222222;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+}
+
+/*===============================================
+画面の横幅が768px以上（パソコン用）
+===============================================*/
+@media screen and (min-width: 768px) {
+  .sp_only {
+    display: none;
+  }
+}
+
+/*===============================================
+画面の横幅が767pxまで（スマホ用）
+===============================================*/
+@media screen and (max-width: 767px) {
+  .pc_only {
+    display: none;
+  }
+}

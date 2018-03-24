@@ -1,0 +1,25 @@
+
+
+.main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  padding: 3rem 0 3rem 0;
+  width: 100%;
+}
+
+.main__img {
+  display: block;
+  height: 400px;
+  max-width: 100%;
+  animation-duration: 3s;
+}
+
+.main__message {
+  display: block;
+  padding-bottom: 2rem;
+  max-width: 100%;
+  text-align: center;
+  animation-duration: 4s;
+}

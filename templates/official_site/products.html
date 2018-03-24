@@ -1,0 +1,50 @@
+{% extends 'official_site/common/base.html' %}
+{% load static %}
+
+{% block title %}
+<title>成果物 | Noots-Val</title>
+{% endblock %}
+
+{% block description %}
+<meta name="description" content="IT業界の明日を憂う個人サークル「Noots-Val」のWEBサイト。製作物置き場（これから増える）。"/>
+{% endblock %}
+
+{% block ogp %}
+<meta property="og:title" content="成果物 | Noots-Val">
+<meta property="og:description" content="IT業界の明日を憂う個人サークル「Noots-Val」のWEBサイト。製作物置き場（これから増える）。"/>
+{% endblock %}
+
+{% block css %}
+<link rel="stylesheet" type="text/css" href="{% static 'official_site/css/Layout/products/contents.css' %}"/>
+<link rel="stylesheet" type="text/css" href="{% static 'official_site/css/Object/web_product.css' %}"/>
+<link rel="stylesheet" type="text/css" href="{% static 'official_site/css/Object/product.css' %}"/>
+{% endblock %}
+
+{% block contents %}
+<h1 class="contents__header1">成果物</h1>
+
+<h2 class="contents__header2">ウェブサイト制作</h2>
+<div class="web-product">
+    <div class="product">
+        <h3 class="product__title">Noots-Val公式サイト</h3>
+        <div class="product__image-area">
+            <img class="product__image" src="{% static 'official_site/img/logo.png'%}">
+        </div>
+        <p class="product__description">Djangoによるホームページ制作。<br/>
+            本サイトです。<br/>
+            Djnagoによるサイト制作、ログイン処理。FLOCSSによるデザインなど。
+        </p>
+    </div>
+
+    <div class="product">
+        <h3 class="product__title">ECサイトサンプル</h3>
+        <div class="product__image-area">
+            <img class="product__image" src="{% static 'official_site/img/Noots.png'%}" alt="Noots-val"/>
+        </div>
+        <p class="product__description">Djangoによるホームページ制作。<br/>
+            一般的なECサイトにありがちな処理を実装してみました。
+        </p>
+    </div>
+</div>
+</div>
+{% endblock %}

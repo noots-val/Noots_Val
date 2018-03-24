@@ -1,0 +1,27 @@
+{% extends 'official_site/common/base.html' %}
+{% load static %}
+
+{% block title %}
+<title>トップ | Noots-Val</title>
+{% endblock %}
+
+{% block description %}
+<meta name="description" content="IT業界の明日を憂う個人サークル「Noots-Val」のWEBサイト。製作物置き場。"/>
+{% endblock %}
+
+{% block ogp %}
+<meta property="og:title" content="トップ | Noots-Val">
+<meta property="og:description" content="IT業界の明日を憂う個人サークル「Noots-Val」のWEBサイト。製作物置き場。"/>
+{% endblock %}
+
+{% block css %}
+<link rel="stylesheet" type="text/css" href="{% static 'official_site/css/Layout/index/contents.css' %}"/>
+<link rel="stylesheet" type="text/css" href="{% static 'official_site/css/Object/main.css' %}"/>
+{% endblock %}
+
+{% block contents %}
+<div class="main">
+    <img class="main__message animated fadeIn" src="{% static 'official_site/img/main_message.png'%}"/>
+    <img class="main__img animated fadeIn" src="{% static 'official_site/img/Noots.png'%}"/>
+</div>
+{% endblock %}

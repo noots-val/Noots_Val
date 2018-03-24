@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+.common-product {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.common-product__link {
+  display: block;
+  margin: 1vh;
+}

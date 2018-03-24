@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+.warning {
+  width: 85%;
+  padding: 1rem;
+  border: solid 1px #E80F0F;
+  border-left: solid 15px #E80F0F;
+  background-color: rgba( 255, 0, 0, 0.12);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+}

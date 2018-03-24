@@ -1,0 +1,63 @@
+{% extends 'official_site/common/base.html' %}
+{% load static %}
+
+{% block title %}
+<title>自己紹介 | Noots-Val</title>
+{% endblock %}
+
+{% block description %}
+<meta name="description" content="IT業界の明日を憂う個人サークル「Noots-Val」のWEBサイト。自己紹介とかサークル紹介とか。"/>
+{% endblock %}
+
+{% block ogp %}
+<meta property="og:title" content="自己紹介 | Noots-Val">
+<meta property="og:description" content="IT業界の明日を憂う個人サークル「Noots-Val」のWEBサイト。自己紹介とかサークル紹介とか。"/>
+{% endblock %}
+
+{% block css %}
+<link rel="stylesheet" type="text/css" href="{% static 'official_site/css/Layout/profile/contents.css' %}"/>
+<link rel="stylesheet" type="text/css" href="{% static 'official_site/css/Object/article.css' %}"/>
+{% endblock %}
+
+{% block contents %}
+<h1 class="contents__header1">自己紹介</h1>
+
+<h2 class="contents__header2">Noots-Valとは</h2>
+<div class="article">
+    <img class="article__img--right" src="{% static 'official_site/img/Noots.png'%}"/>
+    <p class="article__sentences--left">
+        IT業界の発展、日本におけるSE・PGの地位と能力を向上させることを目的とした組織です。といっても、現状はNootsによる個人サークルですが。<br/>
+        <br/>
+        様々なエンジニアと交流し、現在のIT業界の構造にとらわれない組織となることを目的としています。<br/>
+        そのためのアイデアは色々とあるので、今後の活動を見守っていただければと思っています。<br/>
+        <br/>
+        まだまだ小さく、ろくに活動出来ていませんが、少しでも応援してもいいかもと思ってくださった方、関心を持ってくださった方は気軽にお声がけください。
+    </p>
+</div>
+
+<h2 class="contents__header2">製作者プロフィール</h2>
+<div class="article">
+    <img class="article__img--left" src="{% static 'official_site/img/Noots.png'%}"/>
+    <p class="article__sentences--right">
+        名前：Noots<br/>
+        <br/>
+        生年月日1992/04/12。<br/>
+        借金およそ二千万。<br/>
+        早稲田大学社会科学部社会科学科出身。<br/>
+        <br/>
+        就職活動において、学友に蔓延していた「大企業こだわり」に反発する形でIT技術者を志し、いわゆる文系SEとしてIT業界に飛び込みました。<br/>
+        こんな業界だとも知らずに……。<br/>
+        <br/>
+        IT業界歴は三年目を終了間際といったところです。<br/>
+        PG・SEとしての実力はお察しください。<br/>
+        行動力はあると自負しています。ブレーキの掛け方は知りません。<br/>
+        <br/>
+        ちなみに、本物の車のブレーキの掛け方も忘れました。<br/>
+        確か、右足で踏むとかそんなルールがあったようななかったような。<br/>
+        <br/>
+        とりあえずの目標は借金の完済と技術力の向上。<br/>
+        お仕事、募集中です。<br/>
+    </p>
+</div>
+{% endblock %}
+

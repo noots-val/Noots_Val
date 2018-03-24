@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+.cart-btn {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 3vh;
+  right: 3vh;
+
+  width: 8vh;
+  height: 8vh;
+  color: #FFF;
+  background: #CC6666;
+  border-radius: 50%;
+  opacity: 0.9;
+}
+
+/*===============================================
+画面の横幅が768px以上（パソコン用）
+===============================================*/
+@media screen and (min-width: 768px) {
+    .cart-btn {
+      width: 10vh;
+      height: 10vh;
+      bottom: 7vh;
+      right: 7vh;
+    }
+}
