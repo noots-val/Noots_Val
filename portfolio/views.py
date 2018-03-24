@@ -18,7 +18,7 @@ class EcIndexListView(ListView):
     """
 
     model = Commodity
-    template_name = "portfolio/ec_index.html"
+    template_name = "portfolio/index.html"
 
     def get_queryset(self):
         """
@@ -38,7 +38,7 @@ class EcCommodityDetailView(DetailView):
     """
 
     model = Commodity
-    template_name = "portfolio/ec_detail.html"
+    template_name = "portfolio/detail.html"
 
 
 class EcCartListView(LoginRequiredMixin, ListView):
@@ -47,7 +47,7 @@ class EcCartListView(LoginRequiredMixin, ListView):
     """
 
     model = Cart
-    template_name = "portfolio/ec_cart.html"
+    template_name = "portfolio/cart.html"
 
     def get_queryset(self):
         """
@@ -63,7 +63,7 @@ class EcPaymentListView(LoginRequiredMixin, ListView):
     """
 
     model = Cart
-    template_name = "portfolio/ec_payment.html"
+    template_name = "portfolio/payment.html"
 
     cart_of_user = Cart.objects.select_related("commodity", "user").filter(user__id=1)
 
@@ -89,4 +89,4 @@ class EcPaymentCompleteTemplateView(LoginRequiredMixin, TemplateView):
     ECサイトのポートフォリオのpayment_completeへと画面遷移するためのクラス
     """
 
-    template_name = "portfolio/ec_payment_complete.html"
+    template_name = "portfolio/payment_complete.html"
