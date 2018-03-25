@@ -1,14 +1,17 @@
-{% extends "accounts/common/base.html" %}
+{% extends "official_site/common/base.html" %}
 
 {% block contents %}
 
-<h1>Sign up</h1>
 <section class="common-form">
     <form method="post">
         {% csrf_token %}
-        {{ form.as_p }}
+        ユーザー名: {{ form.username }}<br>{{ form.username.errors }}<br>
+        E-MAIL: {{ form.email }}<br>{{ form.email.errors }}<br>
+        パスワード: {{ form.password1 }}<br>{{ form.password1.errors }}<br>
+        確認のため、もう一度パスワードを入力してください: {{ form.password2 }}<br>{{ form.password2.errors }}<br>
         <button type="submit" class="submit">Sign up</button>
     </form>
 </section>
+
 
 {% endblock %}
