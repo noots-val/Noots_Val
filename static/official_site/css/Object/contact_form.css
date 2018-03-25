@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-top: 5rem;
+  padding: 5%;
+  border: solid 1px #555555;
+}
+
+.contact-form input, textarea {
+  width: 100%;
+}
+
+.contact-form button {
+  margin-top: 1.6rem;
+  align-self: flex-end;
+}

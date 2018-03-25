@@ -1,0 +1,29 @@
+@charset "UTF-8";
+.contents {
+  padding: 2rem 0 2rem 0;
+}
+
+.contents__header1 {
+  padding: 1rem;
+  font-size: 2.5rem;
+  color: #EEEEEE;
+  background: #555555;
+  border-left: solid 5px #CC6666;
+}
+
+.contents__header2 {
+  font-size: 2rem;
+  border-bottom: solid 3px #CC6666;
+  padding-top: 2rem;
+}
+
+
+/*===============================================
+画面の横幅が768px以上（パソコン用）
+===============================================*/
+
+@media screen and (min-width: 768px) {
+  .contents {
+    width: 1000px;
+  }
+}

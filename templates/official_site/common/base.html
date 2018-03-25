@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ja">
+{% load static %}
+
+<head>
+    <meta charset="utf-8"/>
+
+    {% block title %}{% endblock %}
+    {% block description %}{% endblock %}
+
+    <meta name="viewport" content="width=device-width"/>
+    <link rel="icon" type="image/png" href="{% static 'official_site/img/Noots.png'%}">
+
+    {% block ogp %}{% endblock %}
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="http://noots-val.com/official_site/index/"/>
+    <meta property="og:image" content="http://noots-val.com/static/official_site/img/Noots.png"/>
+
+    <!--<meta property="fb:app_id" content=""/>-->
+
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@Noots_Val"/>
+    <meta name="twitter:creator" content="@Noots_Val"/>
+
+    <link rel="stylesheet" type="text/css" href="{% static 'official_site/css/Foundation/reset.css' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'official_site/css/Foundation/animate.css' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'official_site/css/Foundation/base.css' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'official_site/css/Layout/container.css' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'official_site/css/Layout/header.css' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'official_site/css/Layout/nav.css' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'official_site/css/Layout/footer.css' %}"/>
+
+    <link rel="stylesheet" type="text/css" href="{% static 'official_site/css/Object/elliptic_button.css' %}"/>
+    {% block css %}{% endblock %}
+</head>
+
+<body>
+<div class="container">
+    <header class="header">
+        <a class="header__logo-area" href="{% url 'official_site:index' %}">
+            <img src="{% static 'official_site/img/logo.png'%}" alt="Noots-val" class="header__logo"/>
+        </a>
+        <div class="header__login">
+            {% if user.is_authenticated  == True %}
+            <a href="{% url 'accounts:mypage' %}" class="elliptic-button">マイページ</a>
+            {% else %}
+            <a href="{% url 'login' %}" class="elliptic-button">ログイン</a>
+            {% endif %}
+        </div>
+
+        <div id="js-header__modal-on" class="header__modal-on">MENU</div>
+        <nav id="js-nav" class="nav js-nav">
+            <ul id="js-nav__menu" class="nav__menu">
+                <li><a href="{% url 'official_site:index' %}">トップページ</a></li>
+                <li><a href="{% url 'official_site:profile' %}">自己紹介</a></li>
+                <li><a href="{% url 'official_site:products' %}">成果物</a></li>
+                <li><a href="#">準備中</a></li>
+                <li><a href="http://noots-val.hatenablog.com" target=”_blank”>Blog</a></li>
+                <li><a href="{% url 'official_site:contact' %}">お問い合わせ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="contents">
+        {% block contents %}{% endblock %}
+    </div>
+
+    <footer class="footer">
+        <div class="copyright">© 2017 Noots-Val</div>
+        <script type="text/javascript" src="{% static 'official_site/js/modal_menu.js' %}"></script>
+    </footer>
+</div>
+</body>
+</html>

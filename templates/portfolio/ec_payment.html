@@ -1,0 +1,40 @@
+{% extends 'portfolio/common/ec_base.html' %}
+{% load static %}
+
+{% block title %}
+<title>ECサイトサンプル 支払い選択画面 | Noots-Val</title>
+{% endblock %}
+
+{% block description %}
+<meta name="description" content="ECサイト用のサンプル。支払い選択画面。"/>
+{% endblock %}
+
+{% block ogp %}
+<meta property="og:title" content="ECサイトサンプル 支払い選択画面 | Noots-Val">
+<meta property="og:description" content="ECサイト用のサンプル。支払い選択画面。"/>
+{% endblock %}
+
+{% block css %}
+<link rel="stylesheet" type="text/css" href="{% static 'portfolio/css/ec_payment.css' %}"/>
+{% endblock %}
+
+{% block contents %}
+
+支払い選択画面
+<a href="{% url 'portfolio:ec_payment_complete' %}">お支払いを確定する</a>
+{% for cart in cart_list %}
+<div>
+    <p>{{ cart.commodity.commodity_title }}</p>
+    <p>{{ cart.commodity.image_url }}</p>
+    <p>価格：{{ cart.commodity.price }}</p>
+    <p>{{ cart.commodity.description }}</p>
+    <p>在庫：{{ cart.commodity.stock }}</p>
+    <p>ユーザー：{{ cart.user.id }}</p>
+    <p>個数：{{ cart.amount }}</p>
+    <hr>
+</div>
+{% endfor %}
+
+合計：{{ merchandise_total }}
+
+{% endblock %}
