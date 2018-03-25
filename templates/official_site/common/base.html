@@ -37,11 +37,15 @@
 <body>
 <div class="container">
     <header class="header">
-        <a class="header__logo-area">
+        <a class="header__logo-area" href="{% url 'official_site:index' %}">
             <img src="{% static 'official_site/img/logo.png'%}" alt="Noots-val" class="header__logo"/>
         </a>
         <div class="header__login">
-            <a href="{% url 'accounts:signup' %}" class="elliptic-button">ログイン</a>
+            {% if user.is_authenticated  == True %}
+            <a href="{% url 'accounts:mypage' %}" class="elliptic-button">マイページ</a>
+            {% else %}
+            <a href="{% url 'login' %}" class="elliptic-button">ログイン</a>
+            {% endif %}
         </div>
 
         <div id="js-header__modal-on" class="header__modal-on">MENU</div>
