@@ -1,4 +1,4 @@
-{% extends 'portfolio/common/ec_base.html' %}
+{% extends 'portfolio/common/base.html' %}
 {% load static %}
 
 {% block title %}
@@ -15,20 +15,20 @@
 {% endblock %}
 
 {% block css %}
-<link rel="stylesheet" type="text/css" href="{% static 'portfolio/css/ec_cart.css' %}"/>
+<link rel="stylesheet" type="text/css" href="{% static 'portfolio/css/cart.css' %}"/>
 {% endblock %}
 
 {% block contents %}
 
 カート画面
-<a href="{% url 'portfolio:ec_payment' %}">お支払い</a>
+<a href="{% url 'portfolio:payment' %}">お支払い</a>
 {% for cart in cart_list %}
 <div>
-    <p>{{ cart.commodity.commodity_title }}</p>
-    <p>{{ cart.commodity.image_url }}</p>
-    <p>{{ cart.commodity.price }}</p>
-    <p>{{ cart.commodity.description }}</p>
-    <p>{{ cart.commodity.stock }}</p>
+    <p>{{ cart.product.product_title }}</p>
+    <p>{{ cart.product.image_url }}</p>
+    <p>{{ cart.product.price }}</p>
+    <p>{{ cart.product.description }}</p>
+    <p>{{ cart.product.stock }}</p>
     <p>{{ cart.user.id }}</p>
     <hr>
 </div>

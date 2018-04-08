@@ -1,4 +1,4 @@
-{% extends 'portfolio/common/ec_base.html' %}
+{% extends 'portfolio/common/base.html' %}
 {% load static %}
 
 {% block title %}
@@ -15,12 +15,12 @@
 {% endblock %}
 
 {% block css %}
-<link rel="stylesheet" type="text/css" href="{% static 'portfolio/css/ec_payment_complete.css' %}"/>
+<link rel="stylesheet" type="text/css" href="{% static 'portfolio/css/payment_complete.css' %}"/>
 {% endblock %}
 
 {% block contents %}
 
 支払い完了画面
-<a href="{% url 'portfolio:ec_index' %}">トップに戻る</a>
+<a href="{% url 'portfolio:index' %}">トップに戻る</a>
 お支払いが完了しました！
 {% endblock %}

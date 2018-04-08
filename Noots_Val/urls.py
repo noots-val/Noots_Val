@@ -13,6 +13,7 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
+from django.conf import settings
 from django.conf.urls import include, url
 from django.contrib import admin
 from django.views.generic import TemplateView
@@ -25,3 +26,9 @@ urlpatterns = [
     url(r'^accounts/', include('django.contrib.auth.urls')),
     url(r'^robots.txt/', TemplateView.as_view(template_name='common/robots.txt', content_type='text/plain')),
 ]
+
+if settings.DEBUG:
+    import debug_toolbar
+    urlpatterns += (
+        url(r'^portfolio/', include(debug_toolbar.urls)),
+    )

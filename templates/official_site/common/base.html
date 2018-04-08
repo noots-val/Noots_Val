@@ -41,7 +41,7 @@
             <img src="{% static 'official_site/img/logo.png'%}" alt="Noots-val" class="header__logo"/>
         </a>
         <div class="header__login">
-            {% if user.is_authenticated  == True %}
+            {% if user.is_authenticated %}
             <a href="{% url 'accounts:mypage' %}" class="elliptic-button">マイページ</a>
             {% else %}
             <a href="{% url 'login' %}" class="elliptic-button">ログイン</a>

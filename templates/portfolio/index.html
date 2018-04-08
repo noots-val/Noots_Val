@@ -1,4 +1,4 @@
-{% extends 'portfolio/common/ec_base.html' %}
+{% extends 'portfolio/common/base.html' %}
 {% load static %}
 
 {% block title %}
@@ -15,7 +15,7 @@
 {% endblock %}
 
 {% block css %}
-<link rel="stylesheet" type="text/css" href="{% static 'portfolio/css/Layout/ec_index/contents.css' %}"/>
+<link rel="stylesheet" type="text/css" href="{% static 'portfolio/css/Layout/index/contents.css' %}"/>
 
 <link rel="stylesheet" type="text/css" href="{% static 'portfolio/css/Object/common_product.css' %}"/>
 <link rel="stylesheet" type="text/css" href="{% static 'portfolio/css/Object/feature_product.css' %}"/>
@@ -41,26 +41,29 @@
 <h1 class="contents__common-title">サブコンテンツ</h1>
 <div class="category">
     カテゴリーでーす！　レイアウトは後で整えまーす！
-    <a href="{% url 'portfolio:ec_index' %}?category=cat">ネコ</a>
-    <a href="{% url 'portfolio:ec_index' %}?category=dog">イヌ</a>
-    <a href="{% url 'portfolio:ec_index' %}?category=rare">珍獣</a>
+    <a href="{% url 'portfolio:index' %}?category=cat">ネコ</a>
+    <a href="{% url 'portfolio:index' %}?category=dog">イヌ</a>
+    <a href="{% url 'portfolio:index' %}?category=rare">珍獣</a>
 </div>
 <div class="common-product">
-    {% for commodity in commodity_list %}
-    <a class="common-product__link" href="{% url 'portfolio:ec_detail' commodity.pk %}">
+    {% for product in product_list %}
+    <a class="common-product__link" href="{% url 'portfolio:detail' product.pk %}">
         <div class="product">
-            <div class="product__title">{{ commodity.commodity_title }}</div>
+            <div class="product__title">{{ product.product_title }}</div>
             <div class="product__image-area">
-                <img class="product__image" src="{{ commodity.image_url }}">
+                <img class="product__image" src="{{ product.image_url }}">
             </div>
-            <div class="product__category">{{ commodity.category }}</div>
-            <div class="product__price">{{ commodity.price }}円</div>
-            <span class="product__special-icon">特価{{ commodity.special_flg }}</span>
-            <div class="product__favorite-icon">★{{ commodity.favorite_flg }}</div>
+            <div class="product__category">{{ product.category }}</div>
+            <div class="product__price">{{ product.price }}円</div>
+            <span class="product__special-icon">特価{{ product.special_flg }}</span>
+            <div class="product__favorite-icon">★{{ product.favorite_flg }}</div>
         </div>
     </a>
     {% endfor %}
 </div>
 
-<div class="cart-btn"><a href="{% url 'portfolio:ec_cart' %}">車</a></div>
+「{{ user }}」
+「{{ product }}」
+「{{ amount }}」
+<div class="cart-btn"><a href="{% url 'portfolio:cart' %}">車</a></div>
 {% endblock %}

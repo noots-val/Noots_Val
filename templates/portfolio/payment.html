@@ -1,4 +1,4 @@
-{% extends 'portfolio/common/ec_base.html' %}
+{% extends 'portfolio/common/base.html' %}
 {% load static %}
 
 {% block title %}
@@ -15,20 +15,20 @@
 {% endblock %}
 
 {% block css %}
-<link rel="stylesheet" type="text/css" href="{% static 'portfolio/css/ec_payment.css' %}"/>
+<link rel="stylesheet" type="text/css" href="{% static 'portfolio/css/payment.css' %}"/>
 {% endblock %}
 
 {% block contents %}
 
 支払い選択画面
-<a href="{% url 'portfolio:ec_payment_complete' %}">お支払いを確定する</a>
+<a href="{% url 'portfolio:payment_complete' %}">お支払いを確定する</a>
 {% for cart in cart_list %}
 <div>
-    <p>{{ cart.commodity.commodity_title }}</p>
-    <p>{{ cart.commodity.image_url }}</p>
-    <p>価格：{{ cart.commodity.price }}</p>
-    <p>{{ cart.commodity.description }}</p>
-    <p>在庫：{{ cart.commodity.stock }}</p>
+    <p>{{ cart.product.product_title }}</p>
+    <p>{{ cart.product.image_url }}</p>
+    <p>価格：{{ cart.product.price }}</p>
+    <p>{{ cart.product.description }}</p>
+    <p>在庫：{{ cart.product.stock }}</p>
     <p>ユーザー：{{ cart.user.id }}</p>
     <p>個数：{{ cart.amount }}</p>
     <hr>
