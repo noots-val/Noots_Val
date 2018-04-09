@@ -102,24 +102,12 @@ class AddProductView(LoginRequiredMixin, TemplateView):
         idなどは直接データを入れるのではなく、リレーションテーブルのオブジェクトを入れるらしい
         :return:
         """
-        user = self.request.user
+        user_id = self.request.user.id
         product_id = self.request.GET.get('id')
         amount = self.request.GET.get('amount')
-        cart = Cart(user=user, product=Product(id=product_id), amount=amount)
+        cart = Cart(user=user_id, product=Product(id=product_id), amount=amount)
         cart.save()
         return cart
-
-    def get_context_data(self, **kwargs):
-        user = self.request.user
-        product_id = self.request.GET.get('id')
-        amount = self.request.GET.get('amount')
-
-        context = super().get_context_data(**kwargs)
-        context["user"] = self.request.META.get('REMOTE_ADDR'),
-        context["product"] = Product(id=product_id)
-        context["amount"] = amount
-
-        return context
 
 
 class DeleteCartView(LoginRequiredMixin, TemplateView):
